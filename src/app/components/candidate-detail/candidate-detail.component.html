@@ -1,0 +1,14 @@
+<div class="container text-right">
+  <a class="btn btn-primary btn-sm active" [routerLink]="['/candidates']">Back</a>
+  <h4 class="text-left text-secondary">Candidate Details: </h4>
+  <div class="card text-left text-secondary mt-5" style="width: 18rem;">
+    <div class="card-header">
+      Name: {{candidateInfo[0].name}}
+    </div>
+    <ul class="list-group list-group-flush">
+      <li class="list-group-item">ID: {{candidateInfo[0].id}}</li>
+      <li class="list-group-item">Department: {{candidateInfo[0].department}}</li>
+      <li class="list-group-item">Joining Date: {{candidateInfo[0].joining_date}}</li>
+    </ul>
+  </div>
+</div>
